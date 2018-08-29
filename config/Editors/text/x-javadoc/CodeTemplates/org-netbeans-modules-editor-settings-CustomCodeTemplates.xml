@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE codetemplates PUBLIC "-//NetBeans//DTD Editor Code Templates settings 1.0//EN" "http://www.netbeans.org/dtds/EditorCodeTemplates-1_0.dtd">
+<codetemplates>
+    <codetemplate abbreviation="para" xml:space="preserve">
+        <code><![CDATA[<p>
+${cursor}</p>]]></code>
+        <description><![CDATA[paragraph]]></description>
+    </codetemplate>
+    <codetemplate abbreviation="ul" xml:space="preserve">
+        <code><![CDATA[<ul>
+    <li>${first}</li>
+    <li>${second}</li>
+    <li>${third}</li>
+    </ul>
+    ${cursor}
+]]></code>
+        <description><![CDATA[unordered list]]></description>
+    </codetemplate>
+    <codetemplate abbreviation="h1" xml:space="preserve">
+        <code><![CDATA[<h1>${first}</h1>${cursor}
+]]></code>
+        <description><![CDATA[level-1 heading
+]]></description>
+    </codetemplate>
+    <codetemplate abbreviation="bold" xml:space="preserve">
+        <code><![CDATA[<b>${first}</b>${cursor}]]></code>
+        <description><![CDATA[bold]]></description>
+    </codetemplate>
+    <codetemplate abbreviation="ol" xml:space="preserve">
+        <code><![CDATA[<ol>
+    <li>${first}</li>
+    <li>${second}</li>
+    <li>${third}</li>
+    ${cursor}
+</ol>]]></code>
+        <description><![CDATA[ordered list]]></description>
+    </codetemplate>
+</codetemplates>
